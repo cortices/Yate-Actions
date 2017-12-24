@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rules</key>
+	<array>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<integer>70</integer>
+					<key>text1</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>97</integer>
+					<key>text1</key>
+					<string>sorted artist list</string>
+					<key>text2</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>109</integer>
+					<key>list1</key>
+					<array>
+						<integer>9</integer>
+					</array>
+					<key>mask</key>
+					<integer>536875008</integer>
+					<key>template</key>
+					<string>Regex Artist to reverse names</string>
+					<key>text1</key>
+					<string>, </string>
+					<key>text3</key>
+					<string>artist item</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>20</integer>
+					<key>mask</key>
+					<integer>338</integer>
+					<key>text1</key>
+					<string>sorted artist list</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>14</integer>
+					<key>list1</key>
+					<array>
+						<integer>16</integer>
+					</array>
+					<key>text1</key>
+					<string>\&lt;sorted artist list&gt;</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>98</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>120</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>119</integer>
+					<key>template</key>
+					<string>Regex Artist to reverse names</string>
+					<key>text1</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>127</integer>
+					<key>mask</key>
+					<integer>0</integer>
+					<key>text1</key>
+					<string>(.*)\s(\S+)$</string>
+					<key>text2</key>
+					<string>$2, $1</string>
+					<key>text3</key>
+					<string>artist item</string>
+					<key>text4</key>
+					<string>artist replaced</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>0</integer>
+					<key>list1</key>
+					<array/>
+					<key>list2</key>
+					<array/>
+					<key>mask</key>
+					<integer>16</integer>
+					<key>text1</key>
+					<string>\&lt;artist replaced&gt;, </string>
+					<key>text2</key>
+					<string>sorted artist list</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>89</integer>
+				</dict>
+			</array>
+			<key>allfiles</key>
+			<false/>
+			<key>date</key>
+			<date>2017-12-23T03:46:41Z</date>
+			<key>hidden</key>
+			<false/>
+			<key>menu</key>
+			<integer>0</integer>
+			<key>name</key>
+			<string>Composer 🡆 Sort Composer</string>
+			<key>tag</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<integer>70</integer>
+					<key>text1</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>97</integer>
+					<key>text1</key>
+					<string>sorted artist list</string>
+					<key>text2</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>109</integer>
+					<key>list1</key>
+					<array>
+						<integer>1</integer>
+					</array>
+					<key>mask</key>
+					<integer>536875008</integer>
+					<key>template</key>
+					<string>Regex Artist to reverse names</string>
+					<key>text1</key>
+					<string>, </string>
+					<key>text3</key>
+					<string>artist item</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>20</integer>
+					<key>mask</key>
+					<integer>338</integer>
+					<key>text1</key>
+					<string>sorted artist list</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>14</integer>
+					<key>list1</key>
+					<array>
+						<integer>13</integer>
+					</array>
+					<key>text1</key>
+					<string>\&lt;sorted artist list&gt;</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>98</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>120</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>119</integer>
+					<key>template</key>
+					<string>Regex Artist to reverse names</string>
+					<key>text1</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>127</integer>
+					<key>mask</key>
+					<integer>0</integer>
+					<key>text1</key>
+					<string>(.*)\s(\S+)$</string>
+					<key>text2</key>
+					<string>$2, $1</string>
+					<key>text3</key>
+					<string>artist item</string>
+					<key>text4</key>
+					<string>artist replaced</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>0</integer>
+					<key>list1</key>
+					<array/>
+					<key>list2</key>
+					<array/>
+					<key>mask</key>
+					<integer>16</integer>
+					<key>text1</key>
+					<string>\&lt;artist replaced&gt;, </string>
+					<key>text2</key>
+					<string>sorted artist list</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>89</integer>
+				</dict>
+			</array>
+			<key>allfiles</key>
+			<false/>
+			<key>date</key>
+			<date>2017-12-23T03:42:16Z</date>
+			<key>hidden</key>
+			<false/>
+			<key>menu</key>
+			<integer>0</integer>
+			<key>name</key>
+			<string>Artist 🡆 Sort Artist</string>
+			<key>tag</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<integer>70</integer>
+					<key>text1</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>97</integer>
+					<key>text1</key>
+					<string>sorted artist list</string>
+					<key>text2</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>109</integer>
+					<key>list1</key>
+					<array>
+						<integer>2</integer>
+					</array>
+					<key>mask</key>
+					<integer>536875008</integer>
+					<key>template</key>
+					<string>Regex Artist to reverse names</string>
+					<key>text1</key>
+					<string>, </string>
+					<key>text3</key>
+					<string>artist item</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>20</integer>
+					<key>mask</key>
+					<integer>338</integer>
+					<key>text1</key>
+					<string>sorted artist list</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>14</integer>
+					<key>list1</key>
+					<array>
+						<integer>14</integer>
+					</array>
+					<key>text1</key>
+					<string>\&lt;sorted artist list&gt;</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>98</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>120</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>119</integer>
+					<key>template</key>
+					<string>Regex Artist to reverse names</string>
+					<key>text1</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>127</integer>
+					<key>mask</key>
+					<integer>0</integer>
+					<key>text1</key>
+					<string>(.*)\s(\S+)$</string>
+					<key>text2</key>
+					<string>$2, $1</string>
+					<key>text3</key>
+					<string>artist item</string>
+					<key>text4</key>
+					<string>artist replaced</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>0</integer>
+					<key>list1</key>
+					<array/>
+					<key>list2</key>
+					<array/>
+					<key>mask</key>
+					<integer>16</integer>
+					<key>text1</key>
+					<string>\&lt;artist replaced&gt;, </string>
+					<key>text2</key>
+					<string>sorted artist list</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<integer>89</integer>
+				</dict>
+			</array>
+			<key>allfiles</key>
+			<false/>
+			<key>date</key>
+			<date>2017-12-23T03:45:57Z</date>
+			<key>hidden</key>
+			<false/>
+			<key>menu</key>
+			<integer>0</integer>
+			<key>name</key>
+			<string>Album Artist 🡆 Sort Album Artist</string>
+			<key>tag</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+	<key>build</key>
+	<string>6170</string>
+	<key>prefsVersion</key>
+	<string>6131</string>
+	<key>version</key>
+	<string>3.17.4</string>
+</dict>
+</plist>
